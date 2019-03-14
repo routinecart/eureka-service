@@ -8,11 +8,11 @@
 		<version>2.1.3.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.quickcart</groupId>
+	<groupId>com.routinekcart</groupId>
 	<artifactId>component-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>component-eureka-server</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Component Eureka Server</description>
 
 	<properties>
 		<java.version>1.8</java.version>
