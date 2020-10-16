@@ -1,4 +1,4 @@
-package com.routinecart.component.eurekaserver;
+package com.routinecart.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
