@@ -1,1 +1,1 @@
-# component-eureka-server
+# eureka-service
