@@ -3,4 +3,16 @@ spring:
     name: eureka-service
 
 server:
-  port: 8010
+  port: 18010
+
+
+eureka:
+  client:
+    registerWithEureka: false   #telling the server not to register itself in the service registry
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://eureka-service:18010/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
+  healthcheck:
+    enabled: true
